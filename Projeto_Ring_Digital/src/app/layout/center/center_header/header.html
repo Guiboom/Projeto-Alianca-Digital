@@ -1,1 +1,37 @@
-<p>header works!</p>
+<header class="bg-gradient-to-r from-[#3e2a1c] via-[#5a3e2b] to-[#2b1a12] text-[#f5e6c8] shadow-xl 
+sticky top-0 z-50 border-b-4 border-[#c19a6b]">
+    
+    <nav class="container mx-auto px-4 py-3 flex flex-col md:flex-row md:justify-between md:items-center gap-3">
+
+        <h1 class="text-lg md:text-xl font-bold tracking-wide text-[#f5e6c8] 
+        drop-shadow-[2px_2px_2px_#000] text-center md:text-left">
+            Aliança Digital
+        </h1>
+
+        <ul class="flex flex-wrap justify-center md:justify-end gap-3 text-xs font-semibold">
+
+            <!-- INÍCIO -->
+            <li class="px-3 py-1 bg-[#8b5a2b] text-[#fdf3d1]
+             border border-[#5a3e2b] rounded-md shadow-md
+             hover:bg-[#a47148] hover:scale-105 active:scale-95 transition">
+                <a routerLink="/">Início</a>
+            </li>
+
+            <!-- ALIENTRO -->
+            <li class="px-3 py-1 bg-[#8b5a2b] text-[#fdf3d1]
+             border border-[#5a3e2b] rounded-md shadow-md
+             hover:bg-[#a47148] hover:scale-105 active:scale-95 transition">
+                <a routerLink="/alientro/caracteristicas">Alientro</a>
+            </li>
+
+            <!-- GLACIARLAND -->
+            <li class="px-3 py-1 bg-[#8b5a2b] text-[#fdf3d1]
+             border border-[#5a3e2b] rounded-md shadow-md
+             hover:bg-[#a47148] hover:scale-105 active:scale-95 transition">
+                <a routerLink="/glaciarland/caracteristicas">Glaciarland</a>
+            </li>
+
+        </ul>
+
+    </nav>
+</header>
