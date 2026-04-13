@@ -1,14 +1,42 @@
-<app-header></app-header>
+<div class="min-h-screen flex flex-col">
 
-<h1>Alientro 👽</h1>
+  <app-header></app-header>
 
-<p>
-País com tecnologia avançada e cidades futuristas. Economia baseada em inovação,
-inteligência artificial e exploração espacial.
-</p>
+  <main class="flex-1 relative flex items-center justify-center text-white">
 
-<p>
-População altamente conectada, com forte uso de automação e sistemas inteligentes.
-</p>
+    <div class="absolute inset-0">
+      <img 
+        src="https://www.sygmasistemas.com.br/wp-content/uploads/2024/11/plantacao-de-milho-passo-a-passo.jpg"
+        alt="Alientro"
+        class="w-full h-full object-cover"
+      />
+     
+      <div class="absolute inset-0 bg-green-900/80 backdrop-blur-sm"></div>
+    </div>
 
-<app-footer></app-footer>
+    <div class="relative z-10 text-center max-w-3xl px-6">
+
+      <h1 class="text-6xl font-bold text-emerald-300 mb-6 drop-shadow-lg">
+        Alientro
+      </h1>
+
+      <h2 class="text-2xl text-green-200 mb-6">
+        Um país entre o futuro tecnológico e a transformação econômica
+      </h2>
+
+      <p class="text-lg text-green-100 mb-4">
+        País com tecnologia avançada e cidades futuristas, impulsionado por inovação,
+        inteligência artificial e exploração espacial.
+      </p>
+
+      <p class="text-green-200 mb-8">
+        Uma sociedade altamente conectada, onde automação e sistemas inteligentes
+        fazem parte do cotidiano.
+      </p>
+    </div>
+
+  </main>
+
+  <app-footer></app-footer>
+
+</div>

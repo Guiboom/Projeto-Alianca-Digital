@@ -1,14 +1,75 @@
-<app-header></app-header>
+<div class="min-h-screen flex flex-col">
 
-<h1>Desafios 👽</h1>
+  <app-header></app-header>
 
-<p>
-Reduzir a desigualdade tecnológica e garantir acesso igtário à inovação
-para toda a população.
-</p>
+  <main class="flex-1 relative flex items-center justify-center text-white p-6">
 
-<p>
-Equilibrar o avanço da automação com a criação de novas oportunidades de trabalho.
-</p>
+    <!-- Fundo -->
+    <div class="absolute inset-0">
+      <img 
+        src="https://blog.jacto.com.br/wp-content/uploads/2018/06/195801-entenda-como-o-consorcio-jacto-funciona-e-financie-suas-maquinas-agricolas.jpg"
+        alt="Alientro"
+        class="w-full h-full object-cover"
+      />
+      <div class="absolute inset-0 bg-green-900/85 backdrop-blur-sm"></div>
+    </div>
 
-<app-footer></app-footer>
+    <!-- Conteúdo -->
+    <div class="relative z-10 max-w-5xl w-full text-center">
+
+      <h1 class="text-4xl md:text-5xl font-bold text-emerald-300 mb-6 drop-shadow-lg">
+        Desafio de Alientro
+      </h1>
+
+      <!-- GRID DE CARDS -->
+      <div class="grid md:grid-cols-2 gap-6 text-left">
+
+        <!-- Card 1 -->
+        <div class="bg-green-900/60 backdrop-blur rounded-2xl p-6 shadow-xl border border-green-700">
+          <h2 class="text-emerald-300 font-semibold mb-2">Contexto</h2>
+          <p class="text-green-100 text-sm leading-relaxed">
+            Alientro enfrenta um momento decisivo, precisando equilibrar suas tradições agrícolas e indústrias familiares com a necessidade de competir em um mercado globalizado.
+          </p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bg-green-900/60 backdrop-blur rounded-2xl p-6 shadow-xl border border-green-700">
+          <h2 class="text-emerald-300 font-semibold mb-2">Problema</h2>
+          <p class="text-green-100 text-sm leading-relaxed">
+            Produtos estrangeiros mais baratos estão dominando o mercado, levando pequenas indústrias familiares à falência.
+          </p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-green-900/60 backdrop-blur rounded-2xl p-6 shadow-xl border border-green-700">
+          <h2 class="text-emerald-300 font-semibold mb-2">Desafio Central</h2>
+          <p class="text-green-100 text-sm leading-relaxed">
+            Proteger a economia local sem impedir o progresso, buscando equilíbrio entre tradição e inovação.
+          </p>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="bg-green-900/60 backdrop-blur rounded-2xl p-6 shadow-xl border border-green-700">
+          <h2 class="text-emerald-300 font-semibold mb-2">Soluções</h2>
+          <p class="text-green-100 text-sm leading-relaxed">
+            Incentivos fiscais, modernização tecnológica e valorização dos produtos locais como patrimônio cultural.
+          </p>
+        </div>
+
+        <!-- Card 5 (Conclusão ocupando linha toda) -->
+        <div class="md:col-span-2 bg-green-900/60 backdrop-blur rounded-2xl p-6 shadow-xl border border-green-700">
+          <h2 class="text-emerald-300 font-semibold mb-2">Conclusão</h2>
+          <p class="text-green-100 text-sm leading-relaxed">
+            O futuro de Alientro depende de um equilíbrio estratégico entre tradição e inovação. Ao mesmo tempo em que protege suas raízes, o país precisa adotar novas tecnologias para crescer de forma sustentável e competitiva.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </main>
+
+  <app-footer></app-footer>
+
+</div>

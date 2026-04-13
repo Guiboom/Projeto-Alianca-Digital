@@ -1,14 +1,52 @@
-<app-header></app-header>
+<div class="min-h-screen flex flex-col">
 
-<h1>Situação Atual 👽</h1>
+  <app-header></app-header>
 
-<p>
-Alientro possui uma economia forte baseada em tecnologia, porém enfrenta desafios
-relacionados à desigualdade digital entre regiões.
-</p>
+  <main class="flex-1 relative flex items-center justify-center text-white p-6">
 
-<p>
-O uso excessivo de automação também impacta empregos tradicionais.
-</p>
+    <!-- Fundo -->
+    <div class="absolute inset-0">
+      <img 
+        src="https://images.unsplash.com/photo-1523741543316-beb7fc7023d8"
+        alt="Crise econômica"
+        class="w-full h-full object-cover"
+      />
+      <div class="absolute inset-0 bg-green-900/85 backdrop-blur-sm"></div>
+    </div>
 
-<app-footer></app-footer>
+    <!-- Conteúdo -->
+    <div class="relative z-10 max-w-4xl w-full text-center">
+
+      <h1 class="text-4xl md:text-5xl font-bold text-emerald-300 mb-6 drop-shadow-lg">
+        Situação Atual
+      </h1>
+
+      <div class="bg-green-900/60 backdrop-blur rounded-2xl p-6 md:p-8 shadow-xl border border-green-700 text-left">
+
+        <p class="text-green-100 leading-relaxed">
+          O país Alientro enfrenta uma grave crise econômica devido à entrada de produtos estrangeiros mais baratos em seu mercado. Esses produtos, muitas vezes produzidos em larga escala e com menores custos, acabam sendo mais acessíveis à população, o que reduz significativamente a procura pelos bens fabricados localmente. Como consequência, as indústrias familiares, que tradicionalmente sustentam a economia do país, passam a sofrer grandes prejuízos.
+          <br><br>
+
+          Com a queda nas vendas e a dificuldade de competir com os preços internacionais, muitas dessas pequenas indústrias entram em falência, gerando desemprego e instabilidade social. A situação se agrava à medida que comunidades inteiras dependiam dessas atividades para sobreviver, tornando urgente a criação de políticas públicas que protejam a produção local e incentivem o desenvolvimento econômico sustentável em Alientro.
+          <br><br>
+
+          Além das dificuldades econômicas imediatas, Alientro passa a enfrentar uma crise estrutural mais profunda. A dependência das indústrias familiares sempre foi uma característica central do país, não apenas como base produtiva, mas também como elemento cultural e social. Com o fechamento dessas pequenas empresas, perde-se não só a fonte de renda de milhares de famílias, mas também tradições locais, técnicas artesanais e conhecimentos passados de geração em geração.
+          <br><br>
+
+          A concorrência com produtos estrangeiros também evidencia a falta de modernização e investimento tecnológico nas indústrias de Alientro. Muitas dessas empresas não conseguem competir em escala, eficiência ou inovação, o que agrava ainda mais sua vulnerabilidade no mercado globalizado. Esse cenário pressiona o governo a repensar suas políticas econômicas, considerando medidas como incentivos fiscais, proteção comercial e programas de capacitação para os produtores locais.
+          <br><br>
+
+          No campo social, o aumento do desemprego gera desigualdade e insegurança, afetando principalmente as regiões mais dependentes da produção familiar. Pequenos municípios sofrem com a redução da atividade econômica, o que impacta o comércio, os serviços e a qualidade de vida da população. Diante disso, Alientro precisa buscar um equilíbrio entre a abertura ao mercado internacional e a valorização da produção interna, promovendo um desenvolvimento mais sustentável e inclusivo que preserve sua identidade econômica e cultural.
+        </p>
+
+      </div>
+
+
+
+    </div>
+
+  </main>
+
+  <app-footer></app-footer>
+
+</div>

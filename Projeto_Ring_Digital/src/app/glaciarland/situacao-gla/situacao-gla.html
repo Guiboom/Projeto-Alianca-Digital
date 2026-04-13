@@ -1,18 +1,46 @@
-<app-header></app-header>
+<div class="min-h-screen flex flex-col">
 
-<h1 class="text-center text-3xl">Situação Atual ❄️</h1>
+  <app-header></app-header>
 
-<p class="max-w-8xl mx-auto px-2 bg-blue-200 rounded-2xl">
-Glaciarland é um país com população pequena e espalhada em regiões montanhosas.
-O acesso a serviços básicos é difícil em áreas isoladas, principalmente no inverno.
-A economia depende fortemente do turismo de inverno e da exportação de água,
-o que gera instabilidade em períodos de baixa temporada.Glaciarland é um país com população pequena e espalhada em regiões montanhosas.
-O acesso a serviços básicos é difícil em áreas isoladas, principalmente no inverno.
-A economia depende fortemente do turismo de inverno e da exportação de água,
-o que gera instabilidade em períodos de baixa temporada.Glaciarland é um país com população pequena e espalhada em regiões montanhosas.
-O acesso a serviços básicos é difícil em áreas isoladas, principalmente no inverno.
-A economia depende fortemente do turismo de inverno e da exportação de água,
-o que gera instabilidade em períodos de baixa temporada.
-</p>
+  <main class="flex-1 relative flex items-center justify-center text-white p-6">
 
-<app-footer></app-footer>
+    <!-- Fundo -->
+    <div class="absolute inset-0">
+      <img 
+        src="https://images.unsplash.com/photo-1523741543316-beb7fc7023d8"
+        alt="Crise climática"
+        class="w-full h-full object-cover"
+      />
+      <div class="absolute inset-0 bg-blue-900/85 backdrop-blur-sm"></div>
+    </div>
+
+    <!-- Conteúdo -->
+    <div class="relative z-10 max-w-4xl w-full text-center">
+
+      <h1 class="text-4xl md:text-5xl font-bold text-cyan-300 mb-6 drop-shadow-lg">
+        ❄️ Situação Atual
+      </h1>
+
+      <div class="bg-blue-900/60 backdrop-blur rounded-2xl p-6 md:p-8 shadow-xl border border-cyan-400 text-left">
+
+        <p class="text-cyan-100 leading-relaxed">
+          O país fictício Glaciarland enfrenta um cenário preocupante devido aos impactos das mudanças climáticas sobre suas cadeias montanhosas. O aumento das temperaturas globais tem provocado o derretimento acelerado do gelo nas montanhas, que historicamente desempenham um papel fundamental tanto na paisagem quanto na economia do país.
+          <br><br>
+          Essas geleiras não apenas atraem turistas do mundo todo, mas também são uma importante fonte de água doce, utilizada para consumo interno e exportação.
+          <br><br>
+          Com a redução do gelo, Glaciarland começa a sofrer perdas significativas no setor turístico, além da diminuição da disponibilidade de água, comprometendo um dos principais recursos econômicos do país.
+          <br><br>
+          Além dos impactos econômicos, surgem problemas ambientais e sociais: desequilíbrio dos ecossistemas, escassez de água, enchentes e aumento do desemprego, levando à migração da população.
+          <br><br>
+          Diante disso, torna-se essencial investir em inovação, sustentabilidade, turismo ecológico e novas fontes de renda para garantir o futuro do país.
+        </p>
+
+      </div>
+
+    </div>
+
+  </main>
+
+  <app-footer></app-footer>
+
+</div>

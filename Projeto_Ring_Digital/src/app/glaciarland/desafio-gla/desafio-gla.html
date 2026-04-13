@@ -1,15 +1,93 @@
-<app-header></app-header>
+<div class="min-h-screen flex flex-col">
 
-<h1>Desafios</h1>
+  <app-header></app-header>
 
-<p>
-Melhorar a infraestrutura em regiões isoladas, garantindo acesso a transporte,
-energia e comunicação mesmo durante o inverno rigoroso.
-</p>
+  <main class="flex-1 bg-gradient-to-br from-[#0f172a] via-[#1e3a5f] to-[#0ea5e9] text-white px-6 py-12">
 
-<p>
-Diversificar a economia para reduzir a dependência do turismo sazonal,
-investindo em tecnologia e sustentabilidade.
-</p>
+    <div class="max-w-5xl mx-auto">
 
-<app-footer></app-footer>
+      <!-- TÍTULO -->
+      <h1 class="text-4xl md:text-5xl font-bold text-cyan-300 mb-8 text-center">
+        ❄️ Desafio de Glaciarland
+      </h1>
+
+      <!-- INTRO -->
+      <p class="text-lg text-cyan-100 text-center mb-12">
+        Glaciarland enfrenta um grande desafio: lidar com os impactos das mudanças climáticas
+        enquanto precisa manter sua economia baseada no turismo e na exportação de água.
+      </p>
+
+      <!-- PROBLEMA -->
+      <div class="bg-black/30 backdrop-blur-md p-6 rounded-2xl shadow-lg mb-10 border border-red-400/40">
+        <h2 class="text-2xl font-semibold text-red-300 mb-4">
+          ⚠️ Problema
+        </h2>
+
+        <p class="text-cyan-100">
+          O derretimento das geleiras está reduzindo o turismo de inverno e diminuindo a
+          disponibilidade de água, afetando diretamente a economia do país.
+        </p>
+      </div>
+
+      <!-- DESAFIO -->
+      <div class="bg-black/30 backdrop-blur-md p-6 rounded-2xl shadow-lg mb-10 border border-yellow-400/40">
+        <h2 class="text-2xl font-semibold text-yellow-300 mb-4">
+          🎯 Desafio Central
+        </h2>
+
+        <p class="text-cyan-100">
+          Adaptar-se às mudanças climáticas e criar novas fontes de renda sem depender apenas do gelo e do turismo tradicional.
+        </p>
+      </div>
+
+      <!-- SOLUÇÕES -->
+      <div class="grid md:grid-cols-3 gap-6">
+
+        <!-- Solução 1 -->
+        <div class="bg-black/40 p-5 rounded-xl border border-cyan-400/40 shadow-lg">
+          <h3 class="text-xl font-bold text-cyan-300 mb-3">
+            💧 Gestão da Água
+          </h3>
+          <p class="text-cyan-100 text-sm">
+            Desenvolver tecnologias de armazenamento e uso eficiente da água para garantir sustentabilidade.
+          </p>
+        </div>
+
+        <!-- Solução 2 -->
+        <div class="bg-black/40 p-5 rounded-xl border border-cyan-400/40 shadow-lg">
+          <h3 class="text-xl font-bold text-cyan-300 mb-3">
+            🌱 Sustentabilidade
+          </h3>
+          <p class="text-cyan-100 text-sm">
+            Investir em energia limpa e políticas ambientais para reduzir impactos climáticos.
+          </p>
+        </div>
+
+        <!-- Solução 3 -->
+        <div class="bg-black/40 p-5 rounded-xl border border-cyan-400/40 shadow-lg">
+          <h3 class="text-xl font-bold text-cyan-300 mb-3">
+            🧭 Diversificação
+          </h3>
+          <p class="text-cyan-100 text-sm">
+            Criar novas fontes de renda como tecnologia, pesquisa científica e turismo sustentável.
+          </p>
+        </div>
+
+      </div>
+
+      <!-- EXTRA -->
+      <div class="mt-12 bg-black/30 p-6 rounded-2xl border border-cyan-400/30 text-center">
+        <p class="text-cyan-100">
+          Melhorar a infraestrutura em regiões isoladas e garantir acesso a transporte,
+          energia e comunicação mesmo em condições climáticas extremas também é essencial
+          para o desenvolvimento do país.
+        </p>
+      </div>
+
+    </div>
+
+  </main>
+
+  <app-footer></app-footer>
+
+</div>
